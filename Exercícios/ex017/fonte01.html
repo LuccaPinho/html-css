@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas 
+            em, ex, rem, vw, vh, %
+            16px geralmente é igual a 1em
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* weight(peso) width(largura) height(altura) 
+            Pesos da fonte: lighter, normal, bold, bolder*/
+
+        }
+
+        h1 {
+            
+            /*shorthand font
+             Ao invés de 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            Simplificar para:
+
+            - Ordem: font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit omnis error soluta deleniti deserunt voluptatibus odio voluptas maiores excepturi? Ipsam labore voluptatem, aliquid distinctio commodi inventore veritatis magnam necessitatibus excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi inventore, consequuntur dolore excepturi maxime et similique vel nihil magni. Optio fugit harum quidem mollitia aspernatur ut nisi tenetur debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem unde perferendis consectetur eaque dolore animi voluptatum. Ratione pariatur eum dolorum dolor placeat minima facere, accusamus excepturi corporis sed? Totam, debitis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio itaque perferendis dignissimos veniam tempore, asperiores nemo possimus error consequuntur numquam totam delectus aliquam cum qui odit quod, eveniet, consequatur alias!</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis explicabo iste a possimus expedita, laboriosam esse et veritatis, eligendi in natus at impedit sint quae dignissimos odit? Odio, qui sed?</p>
+</body>
+</html>
